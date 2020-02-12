@@ -6,41 +6,59 @@
     <title>Quiz about Curb Your Enthusiasm!</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-     <style type="text/css">
-      .jumbotron{
-        margin-top:20px;
-        background-image: url(https://images.app.goo.gl/upyojgSPeACoaML39);
-        background-size: cover;
-        justify-content:center;
-        align-items:center;
-      }
+     <style>
+
+html {
+  height: 1100px;
+
+}
+
+body {
+  background-image: linear-gradient(to top,#f00,#00f, 1.0);
+ background-image: url("Assets/cye-2.jpg");
+background-size: auto 100%;
+}
+
+.jumbotron {
+  background:none;
+/*   background-color: rgba(245, 245, 245, 1.0);
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255,0,0,1)); */
+  height: 1050px;
+}
     </style>
 
 </head>
 <body>
+
   <nav class="container">
     <nav class="jumbotron">
-      <h1 class="display-4">Let's see what you know about Curb Your Enthusiasm!</h1>
-      <p class="lead">Please click the start button below to begin the quiz!</p>
-      <hr class="my-4">
-        <a class="btn btn-primary btn-lg" id="start" href="#" role="button">Let's start!</a>
+      <h1 class="display-4 text-black">Let's see you Curb Your Enthusiasm!</h1>
+      <p class="lead text-black">Please click the start button below to begin the quiz!</p>
+ 
+        <a class="btn btn-primary btn-lg text-black" id="start" href="#" role="button">Let's start!</a>
       </p>
-  </nav>
+
+      <section id="quiz">
+        <section class="text-black" id="question">Question</section>
+        <section class="text-black" id="answer1">Answer1</section>
+        <section class="text-black" id="answer2">Answer2</section>
+        <section class="text-black" id="answer3">Answer3</section>
+        <section class="text-black" id="answer4">Answer4</section>
+        
+      </section>
+
+      <br>
+      <section class="text-black">
+        <h3 id="score"> Score: </h3>
+      </section>
+      <section class="text-black"> 
+        <h3 id="timer"> Timer: </h3>
+      </section>
+      <section class="text-black" id="results"></section>
+
+    </nav>
   
-  <section id="quiz">
-    <section id="question">Question</section>
-    <section id="answer1">Answer1</section>
-    <section id="answer2">Answer2</section>
-  </section>
-  <br>
-  <section>
-    <h3 id="score"> Score: </h3>
-  </section>
-  <section> 
-    <h3 id="timer"> Timer: </h3>
-  </section>
-  <section id="results"></section>
-  
+
   <script src="pop-quiz.js"></script>
   <script src="question.js"></script>
   
