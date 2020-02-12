@@ -22,7 +22,7 @@ var questions = [
         choices: ["Leon Black", "Ted Danson", "Jeff Green", "Cheryl David"],
         answer: "Jeff Green"
     },
-    
+
     {
         title: "Who is Larry’s best friend?",
         choices: ["Leon Black", "Marty Funckhouser", "Jeff Green", "Richard Lewis"],

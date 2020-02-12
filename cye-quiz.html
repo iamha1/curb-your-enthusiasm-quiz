@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz about Curb Your Enthusiasm!</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz about Curb Your Enthusiasm!</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-     <style>
+  <style>
+    html {
+      height: 1100px;
 
-html {
-  height: 1100px;
+    }
 
-}
+    body {
+      background-image: linear-gradient(to top, #f00, #00f, 1.0);
+      background-image: url("Assets/cye-2.jpg");
+      background-size: auto 100%;
+    }
 
-body {
-  background-image: linear-gradient(to top,#f00,#00f, 1.0);
- background-image: url("Assets/cye-2.jpg");
-background-size: auto 100%;
-}
-
-.jumbotron {
-  background:none;
-/*   background-color: rgba(245, 245, 245, 1.0);
-  background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255,0,0,1)); */
-  height: 1050px;
-}
-    </style>
+    .jumbotron {
+      background: none;
+      height: 1050px;
+    }
+  </style>
 
 </head>
+
 <body>
 
   <nav class="container">
     <nav class="jumbotron">
       <h1 class="display-4 text-black">Let's see you Curb Your Enthusiasm!</h1>
       <p class="lead text-black">Please click the start button below to begin the quiz!</p>
- 
-        <a class="btn btn-primary btn-lg text-black" id="start" href="#" role="button">Let's start!</a>
+
+      <a class="btn btn-primary btn-lg text-black" id="start" href="#" role="button">Let's start!</a>
       </p>
 
       <section id="quiz">
@@ -44,24 +44,25 @@ background-size: auto 100%;
         <section class="text-black" id="answer2">Answer2</section>
         <section class="text-black" id="answer3">Answer3</section>
         <section class="text-black" id="answer4">Answer4</section>
-        
+
       </section>
 
       <br>
-      
+
       <section class="text-black">
-        <h3 id="score"> Score: </h3>
+        <h3> Score: <span id="score"></span></h3>
       </section>
-      <section class="text-black"> 
-        <h3 id="timer"> Timer: </h3>
+      <section class="text-black">
+        <h3 id="timerHTML"> Timer: </h3>
       </section>
       <section class="text-black" id="results"></section>
 
     </nav>
-  
 
-  <script src="pop-quiz.js"></script>
-  <script src="question.js"></script>
-  
+
+    <script src="pop-quiz.js"></script>
+    <script src="question.js"></script>
+
 </body>
+
 </html>

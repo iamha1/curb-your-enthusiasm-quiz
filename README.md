@@ -10,7 +10,7 @@
 ![Link to app] (http://iamha1.github.io/)
 
 ## Screenshot
-![screenshot of the quiz](Assets/cye-2.jpg)
+![screenshot of the quiz](Assets/cye-project.png)
 
 ## How to do the quiz:
 - Create 3 files: 1 html for the page, 1 JavaScript file for all the variables and functions, 1 JavaScript file for all the questions in the quiz.
