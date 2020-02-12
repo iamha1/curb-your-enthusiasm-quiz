@@ -1,42 +1,22 @@
-# 04 Web APIs: Code Quiz
+# QUIZ APP
 
-As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment, which is typically a combination of multiple-choice questions and interactive challenges. Build a timed code quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+## USER STORY
 
-## User Story
+- Let's test your knowledge of the show "Curb Your Enthusiasm".
+- You have 60 seconds to complete all the questions in the quiz.
+- If you are a Larry David's fan, you'd love this game!
 
-```
-AS A coding bootcamp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+## App
+![Link to app] (http://iamha1.github.io/)
 
-## Acceptance Criteria
+## Screenshot
+![screenshot of the quiz](Assets/cye-2.jpg)
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
-```
+## How to do the quiz:
+- Create 3 files: 1 html for the page, 1 JavaScript file for all the variables and functions, 1 JavaScript file for all the questions in the quiz.
 
-The following animation demonstrates the application functionality:
+- For the hltm file: add jumbotron, picture, set the theme for the quiz, set up class and id for variables, classes and ids that are mentioned in the JavaScript file.
+- For the pop quiz JavaScript file: set up the variables, function for timer, function for score, function for choosing the correct answers.
+- For the question Javascript file: another seperate file for questions in the quiz.
 
-![code quiz](./Assets/04-web-apis-homework-demo.gif)
-
-### Review
-
-You are required to submit the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+Copyright: https://getbootstrap.com, https://www.hbo.com/curb-your-enthusiasm, https://www.javascript.com/
